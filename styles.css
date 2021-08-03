@@ -1,0 +1,92 @@
+*{
+    --primary-color: #00539CFF; 
+    --secondary-color: rgb(220, 255, 140);
+}
+
+html{
+    background: linear-gradient(to bottom right, var(--primary-color), #ce7ce7);
+}
+
+body{
+    /* background-image: linear-gradient(to bottom right, var(--primary-color), #ce7ce7); */
+    color: var(--secondary-color);
+    padding-bottom: 30%;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+label{
+    display: block;
+    font-size: 1.3rem;
+}
+
+input{
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin:auto;
+}
+
+#date-of-birth{
+    padding: 0.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#check-number{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 2rem;
+    border-color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.footer {
+    background-color: var(--primary-colour);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+}
+
+.non-bullet-list {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+}
+
+.footer-img{
+    height:2rem;
+    width: 2rem;
+    padding: 0rem 0.5rem;
+}
